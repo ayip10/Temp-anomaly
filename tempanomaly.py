@@ -2,6 +2,7 @@ filename = input("Temperature anomaly filename:")
 infile = open(filename, "r")
 
 
+
 #prints each line in infile excluding first five, strips newlines
 for i in range (5):
     infile.readline()
